@@ -1,3 +1,5 @@
+pragma solidity ^0.8.5;
+
 interface lockContractInterface{
     
     function lockStats(address user, uint256 lockID) external view returns(uint256 lockedAmount, uint256 lockingPeriod, uint256 lockedAt);
